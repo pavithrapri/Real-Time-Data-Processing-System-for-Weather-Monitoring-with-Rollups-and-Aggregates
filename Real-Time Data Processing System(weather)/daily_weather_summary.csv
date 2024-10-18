@@ -1,0 +1,7 @@
+city,date,avg_temp,max_temp,min_temp,avg_humidity,avg_wind_speed,dominant_weather
+Bangalore,2024-10-18,25.36,25.36,25.36,77.0,2.06,Rain
+Chennai,2024-10-18,28.39,28.39,28.39,88.0,2.57,Mist
+Delhi,2024-10-18,30.05,30.05,30.05,42.0,1.54,Haze
+Hyderabad,2024-10-18,26.73,26.73,26.73,83.0,3.09,Clouds
+Kolkata,2024-10-18,26.97,26.97,26.97,89.0,2.06,Haze
+Mumbai,2024-10-18,28.99,28.99,28.99,79.0,3.6,Thunderstorm
