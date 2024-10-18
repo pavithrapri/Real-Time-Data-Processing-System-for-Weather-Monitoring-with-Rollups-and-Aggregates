@@ -38,10 +38,9 @@ This project requires the following Python libraries:
 
 You can install the dependencies using pip:
 
-```bash
 pip install requests pandas matplotlib
 
-#Setup
+### Setup
 1.Clone the repository:
         git clone https://github.com/yourusername/weather-monitoring-system.git
         cd weather-monitoring-system
@@ -57,7 +56,6 @@ To run the application in a Docker container, ensure you have Docker installed o
    Run the Docker container:
         docker run -d -p 8080:8080 weather-monitoring
 
-
 ### Design Choices
 API Integration: The system leverages the OpenWeatherMap API to fetch real-time weather data. This decision allows for access to a wide range of weather parameters without maintaining a local database of weather data.
 
@@ -67,14 +65,11 @@ Alert Mechanism: User-configurable alerts provide flexibility, allowing users to
 
 Visualization: Matplotlib is used for data visualization, making it easier to interpret weather trends over time.
 
-##Testing
+### Testing
 To ensure the system works as intended, various test cases have been implemented:
 
 System Setup: Verifies the connection to the OpenWeatherMap API.
 Data Retrieval: Simulates API calls and checks the correctness of the response parsing.
 Temperature Conversion: Tests the conversion of temperature values.
 Daily Weather Summary: Validates daily rollups and aggregates.
-Alerting Thresholds: Checks the functionality of the alert system when thresholds are breached.
-
-
-
+Alerting Thresholds: Checks the functionality of the alert system when thresholds are breached.
