@@ -20,9 +20,6 @@ This project implements a real-time weather monitoring system that retrieves wea
 - Support for multiple weather parameters (e.g., humidity, wind speed).
 - Functionality to fetch weather forecasts and generate summaries based on predicted conditions.
 
-## Codebase
-
-The complete codebase is hosted on GitHub. You can access it [here](https://github.com/yourusername/weather-monitoring-system).
 
 ## Installation Instructions
 
