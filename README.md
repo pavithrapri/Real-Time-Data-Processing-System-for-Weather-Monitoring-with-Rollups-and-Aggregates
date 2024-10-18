@@ -57,28 +57,28 @@ To run the application in a Docker container, ensure you have Docker installed o
         docker run -d -p 8080:8080 weather-monitoring
 
 ## Design Choices
-### API Integration: 
+#### API Integration: 
 The system leverages the OpenWeatherMap API to fetch real-time weather data. This decision allows for access to a wide range of weather parameters without maintaining a local database of weather data.
 
-### Data Processing: 
+#### Data Processing: 
 The system processes data in real-time, rolling up and aggregating daily summaries. This ensures users receive timely and relevant weather information.
 
-### Alert Mechanism:
+#### Alert Mechanism:
 User-configurable alerts provide flexibility, allowing users to set thresholds based on personal preferences.
 
-### Visualization:
+#### Visualization:
 Matplotlib is used for data visualization, making it easier to interpret weather trends over time.
 
 ## Testing
 To ensure the system works as intended, various test cases have been implemented:
 
-### System Setup: 
+#### System Setup: 
 Verifies the connection to the OpenWeatherMap API.
-### Data Retrieval: 
+#### Data Retrieval: 
 Simulates API calls and checks the correctness of the response parsing.
-### Temperature Conversion:
+#### Temperature Conversion:
 Tests the conversion of temperature values.
-### Daily Weather Summary: 
+#### Daily Weather Summary: 
 Validates daily rollups and aggregates.
-### Alerting Thresholds:
+#### Alerting Thresholds:
 Checks the functionality of the alert system when thresholds are breached.
